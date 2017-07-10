@@ -34,7 +34,7 @@ public class ScannerAssignment5 {
        double scale = Double.parseDouble(keyboard.nextLine());
        System.out.println("What is one cool fact about yourself?");
        String fact = keyboard.nextLine();
-       System.out.println(name + "," + age + "," + month + day + "," + cdob + "." + name + " is from " + hometown + "." + name + " has the lucky number " + favnumber + " and a shoe size of " + shoesize + "." + "On a scale of 1 to 5, " + name + " Is this excited to learn about Java: " + scale + "." + "A fun fact about " + name + "is" + fact + ".");
+       System.out.println(name + "," + " age: " + age + " , " + month + " "+ day + "," + cdob + "." + name + " is from " + hometown + "." + name + " has the lucky number " + favnumber + " and a shoe size of " + shoesize + "." + "On a scale of 1 to 5, " + name + " is this excited to learn about Java: " + scale + "." + "A fun fact about " + name + " is " + fact + ".");
     }
     
 }
