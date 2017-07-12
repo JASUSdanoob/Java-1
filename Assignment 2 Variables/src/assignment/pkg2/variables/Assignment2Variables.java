@@ -14,17 +14,74 @@ public class Assignment2Variables {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        int age=15;
-        double height=69.5;
-        String firstName = "Jesus";
-        String lastName = "Resendiz";
-        boolean AStudent = true;
-        String cartoon = "spongebob";
-        String birthday = "November 4th, 2001";
-        System.out.println("My name is " + firstName + " " + lastName);
-        System.out.println("I am " + age + " " + height);
-        System.out.println("My bithday is " + birthday + " and my favorite cartoon is " + cartoon);
-    }
+    int age;
+    double height;
+    String firstName;
+    String lastName;
+    boolean AStudent;
+    String birthday;
+    String phoneNumber;
     
-}
+    public Assignment2Variables(String first, String last, String phone) {
+        firstName=first;
+        lastName=last;
+        phoneNumber=phone;
+    }
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public boolean isAStudent() {
+        return AStudent;
+    }
+
+    public void setAStudent(boolean AStudent) {
+        this.AStudent = AStudent;
+    }
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    
+    }
