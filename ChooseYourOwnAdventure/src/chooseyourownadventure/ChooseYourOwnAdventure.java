@@ -58,12 +58,16 @@ public class ChooseYourOwnAdventure {
                     System.out.println(" ");
                     String choice4 = keyboard.nextLine();
                     System.out.println(" ");
+                    if (choice4.equals("left") || choice4.equals("Left")) {
+                        System.out.println("You walk into the room and fall into a bottomless pit. There is no way to get out of the pit.\nGAME OVER");
+                        System.out.println(" ");
+                    }
                     if (choice4.equals("Right") || choice4.equals("right")) {
                         System.out.println("You have reach the great evil himself. He is planning to attack you what will you do?");
                         System.out.println("\tA) negotiate");
                         System.out.println("\tB) attack");
                         System.out.println("\tC) run away");
-                    }
+                    
                     String choice5 = keyboard.nextLine();
                     if (choice5.equals("A") || choice5.equals("a")) {
                         System.out.println("Your negotiation skills were never good even in school you failed that class. This was a bad idea. He hit you and killed you.\nGAME OVER");
@@ -77,11 +81,8 @@ public class ChooseYourOwnAdventure {
                         System.out.println("You tried to run away, but he looked the door before you could run out of the room. Then he killed you.\nGAME OVER");
                         System.out.println(" ");
                     }
-                    if (choice4.equals("left") || choice2.equals("Left")) {
-                        System.out.println("You walk into the room and fall into a bottomless pit. There is no way to get out of the pit.\nGAME OVER");
-                        System.out.println(" ");
+                    
                     }
-
                     
 
                 }
